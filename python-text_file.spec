@@ -1,4 +1,4 @@
-# $Revision: 1.3 $ $Date: 2004-05-29 05:54:27 $
+# $Revision: 1.4 $ $Date: 2004-05-29 05:58:47 $
 
 %include	/usr/lib/rpm/macros.python
 %define 	module	text_file
@@ -35,12 +35,12 @@ See the class documentation for details.
 test_file.py jest modu³em Pythona udostêpniaj±cym klasê TextFile,
 której instancje s± obiektami podobnymi do pythonowych obiektów file.
 Klasa TextFile w sposób przezroczysty odpowiada za przeprowadzanie
-powszechnych i u¿ytecznych operacji podczas czytania plików
-tekstowych znanych powszechnie w ¶rodowisku uniksowym: ³±czenie linii
-fizycznych w logiczne, usuwanie pocz±tkowych i/lub koñcowych bia³ych
-znaków oraz wewnêtrzne redukowanie bia³ych znaków. Wszystkie z tych
-operacji s± opcjonalne i niezale¿nie konfigurowalne. Dokumentacja
-modu³u umieszczona jest bezpo¶rednio w pliku text_file.py.
+u¿ytecznych i znanych w ¶rodowisku uniksowym operacji podczas czytania
+plików tekstowych: ³±czenie linii fizycznych w logiczne, usuwanie
+pocz±tkowych i/lub koñcowych bia³ych znaków oraz wewnêtrzne
+redukowanie bia³ych znaków. Wszystkie z tych operacji s± opcjonalne i
+niezale¿nie konfigurowalne. Dokumentacja modu³u umieszczona jest
+bezpo¶rednio w pliku text_file.py.
 
 Nale¿y zauwa¿yæ, i¿ obiekty TextFile nie maj± semantyki zgodnej z
 obiektami file Pythona, nie s± wiêc w stu procentach kompatybilne z

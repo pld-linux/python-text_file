@@ -1,6 +1,5 @@
-# $Revision: 1.4 $ $Date: 2004-05-29 05:58:47 $
+# $Revision: 1.5 $ $Date: 2004-07-28 08:03:18 $
 
-%include	/usr/lib/rpm/macros.python
 %define 	module	text_file
 
 Summary:	Python module that simplifies text file processing

@@ -1,4 +1,4 @@
-# $Revision: 1.2 $ $Date: 2004-05-29 05:53:43 $
+# $Revision: 1.3 $ $Date: 2004-05-29 05:54:27 $
 
 %include	/usr/lib/rpm/macros.python
 %define 	module	text_file
@@ -29,7 +29,7 @@ See the documentation in text_file.py for full details.
 
 Note that TextFile objects do not have precisely the same semantics as
 Python file objects, so they are not 100% compatible with each other.
-;-( See the class documentation for details.
+See the class documentation for details.
 
 %description -l pl
 test_file.py jest modu³em Pythona udostêpniaj±cym klasê TextFile,

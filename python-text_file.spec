@@ -1,10 +1,10 @@
-# $Revision: 1.1 $ $Date: 2004-05-29 05:52:22 $
+# $Revision: 1.2 $ $Date: 2004-05-29 05:53:43 $
 
 %include	/usr/lib/rpm/macros.python
 %define 	module	text_file
 
 Summary:	Python module that simplifies text file processing
-Summary(pl):	Modu³ Pythona upraszczaj±cy przetwarzanie plików tesktowych
+Summary(pl):	Modu³ Pythona upraszczaj±cy przetwarzanie plików tekstowych
 Name:		python-%{module}
 Version:	1.0
 Release:	1
@@ -35,7 +35,7 @@ Python file objects, so they are not 100% compatible with each other.
 test_file.py jest modu³em Pythona udostêpniaj±cym klasê TextFile,
 której instancje s± obiektami podobnymi do pythonowych obiektów file.
 Klasa TextFile w sposób przezroczysty odpowiada za przeprowadzanie
-powszechnych i u¿ytecznych opreracji podczas czytania plików
+powszechnych i u¿ytecznych operacji podczas czytania plików
 tekstowych znanych powszechnie w ¶rodowisku uniksowym: ³±czenie linii
 fizycznych w logiczne, usuwanie pocz±tkowych i/lub koñcowych bia³ych
 znaków oraz wewnêtrzne redukowanie bia³ych znaków. Wszystkie z tych

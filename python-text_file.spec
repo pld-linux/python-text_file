@@ -1,4 +1,4 @@
-# $Revision: 1.5 $ $Date: 2004-07-28 08:03:18 $
+# $Revision: 1.6 $ $Date: 2004-11-27 19:01:24 $
 
 %define 	module	text_file
 
@@ -12,7 +12,7 @@ Group:		Libraries/Python
 Source0:	http://www.mems-exchange.org/software/files/%{module}/%{module}-%{version}.tar.gz
 # Source0-md5:	de5e02741a0bf64635d0321eff635ee3
 URL:		http://www.mems-exchange.org/software/text_file/
-BuildRequires:	python-devel >= 2.3
+BuildRequires:	python-devel >= 1:2.3
 Requires:	python >= 2.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

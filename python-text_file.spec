@@ -1,9 +1,9 @@
-# $Revision: 1.6 $ $Date: 2004-11-27 19:01:24 $
+# $Revision: 1.7 $ $Date: 2007-02-12 01:06:29 $
 
 %define 	module	text_file
 
 Summary:	Python module that simplifies text file processing
-Summary(pl):	Modu³ Pythona upraszczaj±cy przetwarzanie plików tekstowych
+Summary(pl.UTF-8):   ModuÅ‚ Pythona upraszczajÄ…cy przetwarzanie plikÃ³w tekstowych
 Name:		python-%{module}
 Version:	1.0
 Release:	1
@@ -30,21 +30,21 @@ Note that TextFile objects do not have precisely the same semantics as
 Python file objects, so they are not 100% compatible with each other.
 See the class documentation for details.
 
-%description -l pl
-test_file.py jest modu³em Pythona udostêpniaj±cym klasê TextFile,
-której instancje s± obiektami podobnymi do pythonowych obiektów file.
-Klasa TextFile w sposób przezroczysty odpowiada za przeprowadzanie
-u¿ytecznych i znanych w ¶rodowisku uniksowym operacji podczas czytania
-plików tekstowych: ³±czenie linii fizycznych w logiczne, usuwanie
-pocz±tkowych i/lub koñcowych bia³ych znaków oraz wewnêtrzne
-redukowanie bia³ych znaków. Wszystkie z tych operacji s± opcjonalne i
-niezale¿nie konfigurowalne. Dokumentacja modu³u umieszczona jest
-bezpo¶rednio w pliku text_file.py.
+%description -l pl.UTF-8
+test_file.py jest moduÅ‚em Pythona udostÄ™pniajÄ…cym klasÄ™ TextFile,
+ktÃ³rej instancje sÄ… obiektami podobnymi do pythonowych obiektÃ³w file.
+Klasa TextFile w sposÃ³b przezroczysty odpowiada za przeprowadzanie
+uÅ¼ytecznych i znanych w Å›rodowisku uniksowym operacji podczas czytania
+plikÃ³w tekstowych: Å‚Ä…czenie linii fizycznych w logiczne, usuwanie
+poczÄ…tkowych i/lub koÅ„cowych biaÅ‚ych znakÃ³w oraz wewnÄ™trzne
+redukowanie biaÅ‚ych znakÃ³w. Wszystkie z tych operacji sÄ… opcjonalne i
+niezaleÅ¼nie konfigurowalne. Dokumentacja moduÅ‚u umieszczona jest
+bezpoÅ›rednio w pliku text_file.py.
 
-Nale¿y zauwa¿yæ, i¿ obiekty TextFile nie maj± semantyki zgodnej z
-obiektami file Pythona, nie s± wiêc w stu procentach kompatybilne z
-innymi modu³ami udostêpniaj±cymi podobn± funkcjonalno¶æ. Szczegó³y
-opisane s± w dokumentacji klasy.
+NaleÅ¼y zauwaÅ¼yÄ‡, iÅ¼ obiekty TextFile nie majÄ… semantyki zgodnej z
+obiektami file Pythona, nie sÄ… wiÄ™c w stu procentach kompatybilne z
+innymi moduÅ‚ami udostÄ™pniajÄ…cymi podobnÄ… funkcjonalnoÅ›Ä‡. SzczegÃ³Å‚y
+opisane sÄ… w dokumentacji klasy.
 
 %prep
 %setup -q -n %{module}-%{version}

@@ -1,9 +1,9 @@
-# $Revision: 1.7 $ $Date: 2007-02-12 01:06:29 $
+# $Revision: 1.8 $ $Date: 2007-02-13 08:06:43 $
 
 %define 	module	text_file
 
 Summary:	Python module that simplifies text file processing
-Summary(pl.UTF-8):   Moduł Pythona upraszczający przetwarzanie plików tekstowych
+Summary(pl.UTF-8):	Moduł Pythona upraszczający przetwarzanie plików tekstowych
 Name:		python-%{module}
 Version:	1.0
 Release:	1

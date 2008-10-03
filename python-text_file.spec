@@ -1,4 +1,4 @@
-# $Revision: 1.8 $ $Date: 2007-02-13 08:06:43 $
+# $Revision: 1.9 $ $Date: 2008-10-03 18:02:07 $
 
 %define 	module	text_file
 
@@ -6,7 +6,7 @@ Summary:	Python module that simplifies text file processing
 Summary(pl.UTF-8):	Moduł Pythona upraszczający przetwarzanie plików tekstowych
 Name:		python-%{module}
 Version:	1.0
-Release:	1
+Release:	2
 License:	CNRI
 Group:		Libraries/Python
 Source0:	http://www.mems-exchange.org/software/files/%{module}/%{module}-%{version}.tar.gz

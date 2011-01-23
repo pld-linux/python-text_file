@@ -1,4 +1,4 @@
-# $Revision: 1.10 $ $Date: 2010-07-08 08:41:58 $
+# $Revision: 1.11 $ $Date: 2011-01-23 21:10:46 $
 
 %define 	module	text_file
 
@@ -13,6 +13,8 @@ Source0:	http://www.mems-exchange.org/software/files/%{module}/%{module}-%{versi
 # Source0-md5:	de5e02741a0bf64635d0321eff635ee3
 URL:		http://www.mems-exchange.org/software/text_file/
 BuildRequires:	python-devel >= 1:2.3
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 Requires:	python >= 2.3
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

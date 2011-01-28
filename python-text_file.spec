@@ -1,4 +1,3 @@
-# $Revision: 1.11 $ $Date: 2011-01-23 21:10:46 $
 
 %define 	module	text_file
 

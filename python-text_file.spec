@@ -5,7 +5,7 @@ Summary:	Python module that simplifies text file processing
 Summary(pl.UTF-8):	Moduł Pythona upraszczający przetwarzanie plików tekstowych
 Name:		python-%{module}
 Version:	1.0
-Release:	3
+Release:	4
 License:	CNRI
 Group:		Libraries/Python
 Source0:	http://www.mems-exchange.org/software/files/%{module}/%{module}-%{version}.tar.gz

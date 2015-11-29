@@ -11,6 +11,7 @@ Group:		Libraries/Python
 Source0:	http://www.mems-exchange.org/software/files/%{module}/%{module}-%{version}.tar.gz
 # Source0-md5:	de5e02741a0bf64635d0321eff635ee3
 URL:		http://www.mems-exchange.org/software/text_file/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
 BuildRequires:	rpm-pythonprov
